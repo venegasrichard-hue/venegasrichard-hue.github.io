@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autor - Richard V. Corwin</title>
+
+<style>
+
+body{
+margin:0;
+background:#071018;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+/* NAV */
+
+nav{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px 30px;
+border-bottom:1px solid #222;
+width:100%;
+box-sizing:border-box;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.lang{
+position:absolute;
+right:30px;
+display:flex;
+gap:12px;
+align-items:center;
+}
+
+.lang a{
+color:white;
+text-decoration:none;
+font-size:14px;
+display:flex;
+align-items:center;
+gap:6px;
+}
+
+.lang img{
+width:22px;
+border-radius:2px;
+}
+
+/* CONTENT */
+
+.container{
+max-width:700px;
+margin:auto;
+padding:60px 20px;
+line-height:1.8;
+}
+
+.author-photo{
+width:380px;
+max-width:90%;
+border-radius:8px;
+margin-bottom:25px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+.lang{
+position:static;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="menu">
+<a href="index-es.html">Inicio</a>
+<a href="books-es.html">Libros</a>
+<a href="about-es.html">Autor</a>
+</div>
+
+<div class="lang">
+<a href="about.html">
+<img src="flag-en.png"> EN
+</a>
+
+<a href="about-es.html">
+<img src="flag-es.png"> ES
+</a>
+</div>
+
+</nav>
+
+<div class="container">
+
+<img class="author-photo" src="author.jpg">
+
+<h2>Richard V. Corwin</h2>
+
+<p>
+Richard V. Corwin escribe thrillers psicológicos centrados en la memoria,
+la identidad y los pasados ocultos. Sus historias exploran vidas ordinarias
+interrumpidas por un solo evento, donde la verdad se vuelve incierta y cada
+personaje oculta algo.
+</p>
+
+<p>
+Su trabajo se enfoca en la tensión, la atmósfera y el conflicto psicológico,
+creando suspenso de desarrollo lento y revelaciones inquietantes.
+</p>
+
+</div>
+
+</body>
+</html>
