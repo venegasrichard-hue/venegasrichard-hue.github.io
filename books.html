@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Books - Richard V. Corwin</title>
+<title>Libros - Richard V. Corwin</title>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
@@ -15,75 +14,31 @@ color:white;
 text-align:center;
 }
 
-/* NAV */
-
 nav{
-position:relative;
 display:flex;
 justify-content:center;
-align-items:center;
-padding:20px 30px;
+gap:40px;
+padding:20px;
 border-bottom:1px solid #222;
-width:100%;
-box-sizing:border-box;
 }
 
-.menu{
-display:flex;
-gap:20px;
-}
-
-.menu a{
-color:white;
-text-decoration:none;
-font-size:18px;
-}
-
-/* FLAGS RIGHT */
-
-.lang{
-position:absolute;
-right:30px;
-display:flex;
-gap:12px;
-align-items:center;
-}
-
-.lang a{
+nav a{
 color:white;
 text-decoration:none;
 font-size:14px;
-display:flex;
-align-items:center;
-gap:6px;
-}
-
-.lang img{
-width:22px;
-border-radius:2px;
-}
-
-/* CONTENT */
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:50px 20px;
+letter-spacing:1px;
 }
 
 .books{
 display:flex;
 justify-content:center;
-gap:80px;
+gap:60px;
+padding:60px 20px;
 flex-wrap:wrap;
-align-items:stretch;
 }
 
 .book{
-width:320px;
-display:flex;
-flex-direction:column;
-align-items:center;
+max-width:280px;
 }
 
 .book img{
@@ -91,136 +46,88 @@ width:100%;
 border-radius:8px;
 }
 
-.book-title{
-margin-top:20px;
-font-weight:bold;
+.book h3{
+font-size:14px;
+margin-top:15px;
 letter-spacing:1px;
-min-height:48px;
 }
 
 .buttons{
-margin-top:auto;
+margin-top:15px;
 display:flex;
 flex-direction:column;
 gap:12px;
-width:100%;
 }
 
 .btn{
-padding:14px 22px;
-border-radius:25px;
+padding:12px;
+border-radius:30px;
 text-decoration:none;
+font-size:14px;
 display:block;
-font-size:15px;
-width:100%;
-text-align:center;
-box-sizing:border-box;
 }
 
 .btn-white{
-background:white;
+background:#e5e5e5;
 color:black;
 }
 
 .btn-sample{
-background:#f5c84c;
+background:#e6b93d;
 color:black;
-font-weight:bold;
 }
-
-/* MOBILE */
-
-@media (max-width:768px){
-
-nav{
-flex-direction:column;
-gap:10px;
-}
-
-.lang{
-position:static;
-}
-
-.books{
-flex-direction:column;
-align-items:center;
-gap:50px;
-}
-
-}
-
 </style>
+
 </head>
 
 <body>
 
 <nav>
-
-<div class="menu">
-<a href="index.html">Home</a>
-<a href="books.html">Books</a>
-<a href="about.html">About</a>
-</div>
-
-<div class="lang">
-<a href="books.html">
-<img src="flag-en.png"> EN
-</a>
-
-<a href="books-es.html">
-<img src="flag-es.png"> ES
-</a>
-</div>
-
+<a href="index-es.html">Inicio</a>
+<a href="books-es.html">Libros</a>
+<a href="about-es.html">Autor</a>
 </nav>
-
-<div class="container">
-
-<h1>Books</h1>
 
 <div class="books">
 
 <div class="book">
-<img src="book1.jpg">
 
-<div class="book-title">
-THE NIGHT WE NEVER SPOKE OF
-</div>
+<img src="book1es.jpg">
+
+<h3>LA NOCHE DE LA QUE NUNCA HABLAMOS</h3>
 
 <div class="buttons">
 
-<a class="btn btn-white" href="#">
-Buy on Amazon
+<a class="btn btn-white" href="https://a.co/d/0aVKoKzQ" target="_blank">
+Comprar en Amazon
 </a>
 
-<a class="btn btn-sample" href="sample-night.html">
-Read Sample
+<a class="btn btn-sample" href="/richardvcorwin/sample-night-es.html">
+Leer muestra
 </a>
 
 </div>
 </div>
 
 <div class="book">
-<img src="book2.jpg">
 
-<div class="book-title">
-THE PERFECT SUBJECT
-</div>
+<img src="book2es.jpg">
+
+<h3>EL SUJETO PERFECTO</h3>
 
 <div class="buttons">
 
 <a class="btn btn-white">
-Coming Soon
+Próximamente
 </a>
 
-<a class="btn btn-sample" href="sample-perfect.html">
-Read Sample
+<a class="btn btn-sample" href="/richardvcorwin/sample-perfect-es.html">
+Leer muestra
 </a>
 
 </div>
 </div>
 
-</div>
 </div>
 
 </body>
