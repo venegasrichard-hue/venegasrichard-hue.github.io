@@ -15,16 +15,30 @@ text-align:center;
 }
 
 nav{
+position:relative;
 display:flex;
 justify-content:center;
 align-items:center;
 padding:20px 40px;
 border-bottom:1px solid #222;
+width:100%;
+box-sizing:border-box;
 }
 
-nav div{
+.menu{
 display:flex;
-gap:20px;
+gap:40px;
+align-items:center;
+justify-content:center;
+}
+
+.lang{
+position:absolute;
+right:30px;
+top:50%;
+transform:translateY(-50%);
+display:flex;
+gap:10px;
 align-items:center;
 }
 
@@ -34,19 +48,7 @@ text-decoration:none;
 font-size:14px;
 letter-spacing:1px;
 }
-.lang{
-position:absolute;
-right:30px;
-display:flex;
-gap:10px;
-align-items:center;
-}
 
-.lang img{
-width:22px;
-height:auto;
-display:block;
-}
 .hero{
 padding:40px 20px;
 }
@@ -112,13 +114,11 @@ color:black;
 
 <div class="lang">
 <a href="index.html">
-<img src="flag-en.png">
+<img src="flag-en.png" width="22">
 </a>
-
 <a href="index-es.html">
-<img src="flag-es.png">
+<img src="flag-es.png" width="22">
 </a>
-
 </div>
 </nav>
 
@@ -134,7 +134,6 @@ color:black;
 <h3>LA NOCHE DE LA QUE NUNCA HABLAMOS</h3>
 
 <div class="buttons">
-
 <a class="btn btn-white" href="https://a.co/d/0aVKoKzQ" target="_blank">
 Comprar en Amazon
 </a>
@@ -142,7 +141,6 @@ Comprar en Amazon
 <a class="btn btn-sample" href="/richardvcorwin/sample-night-es.html">
 Leer muestra
 </a>
-
 </div>
 </div>
 
@@ -151,7 +149,6 @@ Leer muestra
 <h3>EL SUJETO PERFECTO</h3>
 
 <div class="buttons">
-
 <a class="btn btn-white">
 Próximamente
 </a>
@@ -159,7 +156,6 @@ Próximamente
 <a class="btn btn-sample" href="/richardvcorwin/sample-perfect-es.html">
 Leer muestra
 </a>
-
 </div>
 </div>
 
