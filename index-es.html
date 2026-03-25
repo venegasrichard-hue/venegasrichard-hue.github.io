@@ -64,6 +64,8 @@ align-items:flex-start;
 
 .book{
 max-width:280px;
+display:flex;
+flex-direction:column;
 }
 
 .book img{
@@ -87,6 +89,7 @@ margin-top:15px;
 display:flex;
 flex-direction:column;
 gap:12px;
+flex-grow:1;
 }
 
 .btn{
@@ -112,6 +115,19 @@ color:black;
 .btn-sample{
 background:#e6b93d;
 color:black;
+}
+
+@media (max-width:768px){
+.books{
+flex-direction:column;
+align-items:center;
+gap:40px;
+}
+
+.book{
+max-width:320px;
+width:90%;
+}
 }
 </style>
 
@@ -151,7 +167,7 @@ color:black;
 Comprar en Amazon
 </a>
 
-<a class="btn btn-sample" href="sample-night-es.html"
+<a class="btn btn-sample" href="sample-night-es.html">
 Leer muestra
 </a>
 </div>
