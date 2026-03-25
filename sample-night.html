@@ -8,62 +8,78 @@
 <style>
 body{
 margin:0;
+font-family:Arial, Helvetica, sans-serif;
 background:#071018;
 color:white;
-font-family:Georgia, serif;
-line-height:1.8;
+text-align:center;
 }
 
-.topnav{
-position:sticky;
-top:0;
-background:#071018;
-border-bottom:1px solid rgba(255,255,255,0.1);
-padding:18px 30px;
-z-index:1000;
-}
-
-.nav-inner{
-max-width:1100px;
-margin:auto;
+nav{
+position:relative;
 display:flex;
-justify-content:space-between;
+justify-content:center;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #222;
+width:100%;
+box-sizing:border-box;
+}
+
+.menu{
+display:flex;
+gap:40px;
+align-items:center;
+justify-content:center;
+}
+
+.lang{
+position:absolute;
+right:30px;
+top:50%;
+transform:translateY(-50%);
+display:flex;
+gap:10px;
 align-items:center;
 }
 
-.topnav a{
+nav a{
 color:white;
 text-decoration:none;
-margin-left:25px;
-opacity:0.85;
-}
-
-.logo{
-font-weight:bold;
+font-size:14px;
 letter-spacing:1px;
 }
 
+/* CONTENT */
+
 .container{
-max-width:720px;
+max-width:680px;
 margin:auto;
-padding:60px 20px;
+padding:80px 20px;
+text-align:left;
 }
 
 h1{
 text-align:center;
-margin-bottom:5px;
+letter-spacing:1px;
 }
 
 .subtitle{
 text-align:center;
-opacity:0.7;
-margin-bottom:40px;
+opacity:0.6;
+margin-bottom:50px;
+font-size:14px;
+}
+
+p{
+line-height:1.9;
+margin-bottom:22px;
 }
 
 .book-nav{
 display:flex;
 justify-content:space-between;
-margin-top:60px;
+margin-top:80px;
+font-size:14px;
 opacity:0.8;
 }
 
@@ -71,25 +87,27 @@ opacity:0.8;
 color:white;
 text-decoration:none;
 }
-
-p{
-margin-bottom:18px;
-}
 </style>
 
 </head>
 <body>
 
-<header class="topnav">
-<div class="nav-inner">
-<a href="index.html" class="logo">Richard V. Corwin</a>
-
 <nav>
+<div class="menu">
 <a href="index.html">Home</a>
 <a href="books.html">Books</a>
-</nav>
+<a href="about.html">About</a>
 </div>
-</header>
+
+<div class="lang">
+<a href="index.html">
+<img src="flag-en.png" width="22">
+</a>
+<a href="index-es.html">
+<img src="flag-es.png" width="22">
+</a>
+</div>
+</nav>
 
 <div class="container">
 
