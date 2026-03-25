@@ -1,4 +1,4 @@
-       <!DOCTYPE html>
+     <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -7,17 +7,53 @@
 
 <style>
 body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
 background:#071018;
 color:white;
-font-family:Georgia, serif;
-line-height:1.8;
-margin:0;
+text-align:center;
+}
+
+nav{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #222;
+width:100%;
+box-sizing:border-box;
+}
+
+.menu{
+display:flex;
+gap:40px;
+align-items:center;
+justify-content:center;
+}
+
+.lang{
+position:absolute;
+right:30px;
+top:50%;
+transform:translateY(-50%);
+display:flex;
+gap:10px;
+align-items:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+letter-spacing:1px;
 }
 
 .container{
-max-width:720px;
+max-width:680px;
 margin:auto;
-padding:60px 20px;
+padding:80px 20px;
+text-align:left;
 }
 
 h1{
@@ -28,15 +64,47 @@ text-align:center;
 text-align:center;
 opacity:0.7;
 margin-bottom:40px;
+font-size:14px;
 }
 
 p{
 margin-bottom:18px;
+line-height:1.9;
+}
+
+.book-nav{
+display:flex;
+justify-content:space-between;
+margin-top:80px;
+font-size:14px;
+opacity:0.8;
+}
+
+.book-nav a{
+color:white;
+text-decoration:none;
 }
 </style>
 
 </head>
 <body>
+
+<nav>
+<div class="menu">
+<a href="index-es.html">Inicio</a>
+<a href="books-es.html">Libros</a>
+<a href="about-es.html">Acerca</a>
+</div>
+
+<div class="lang">
+<a href="index.html">
+<img src="flag-en.png" width="22">
+</a>
+<a href="index-es.html">
+<img src="flag-es.png" width="22">
+</a>
+</div>
+</nav>
 
 <div class="container">
 
@@ -144,8 +212,12 @@ margin-bottom:18px;
 
 <p>“…ya ha confiado en uno.”</p>
 
+<div class="book-nav">
+<a href="books-es.html">← Volver a libros</a>
+<a href="chapter2-es.html">Siguiente capítulo →</a>
+</div>
+
 </div>
 
 </body>
 </html>
-
