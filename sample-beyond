@@ -1,43 +1,101 @@
-<h2>Synopsis</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beyond Borealis</title>
 
-<p>
-An expedition to the far north.  
-A bunker buried beneath the ice.  
-A project designed to preserve life.
-</p>
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#071018;
+color:white;
+text-align:center;
+}
 
-<p>
-Selected to collaborate with the Borealis Garden Initiative, a team of 
-scientists and specialists travels to a remote Arctic station dedicated 
-to safeguarding plant life for the future of humanity.
-</p>
+nav{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #222;
+}
 
-<p>
-The mission seems routine. Document, evaluate, and return.
-</p>
+.menu{
+display:flex;
+gap:40px;
+}
 
-<p>
-But upon arrival, nothing is quite as expected.
-</p>
+.lang{
+position:absolute;
+right:30px;
+}
 
-<p>
-Equipment out of place.  
-Deteriorating facilities.  
-Incomplete records.  
-Silences that shouldn't exist.
-</p>
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
 
-<p>
-As isolation deepens, the expedition begins to face a series of unsettling 
-events that defy logical explanation.
-</p>
+.container{
+max-width:750px;
+margin:60px auto;
+padding:0 20px;
+text-align:left;
+line-height:1.6;
+}
 
-<p>
-What started as a scientific mission soon becomes a struggle to understand 
-what happened at Borealis… and whether they are truly alone.
-</p>
+.subtitle{
+text-align:center;
+opacity:0.7;
+margin-bottom:40px;
+}
+</style>
+</head>
 
-<p>
-<b>Beyond Borealis</b> is a psychological survival thriller about isolation, 
-uncertainty, and the boundaries of the unknown.
-</p>
+<body>
+
+<nav>
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="books.html">Books</a>
+<a href="about.html">About</a>
+</div>
+
+<div class="lang">
+<a href="sample-beyond.html">
+<img src="flag-en.png" width="22">
+</a>
+<a href="sample-masalla.html">
+<img src="flag-es.png" width="22">
+</a>
+</div>
+</nav>
+
+<div class="container">
+
+<h1>Beyond Borealis</h1>
+<div class="subtitle">The Borealis Garden Initiative</div>
+
+<h3>Synopsis</h3>
+
+<p>An expedition to the far north. A bunker buried beneath the ice. A project designed to preserve life.</p>
+
+<p>Selected to collaborate with the Borealis Garden Initiative, a team of scientists and specialists travels to a remote Arctic station dedicated to safeguarding plant life for the future of humanity.</p>
+
+<p>The mission seems routine. Document, evaluate, and return.</p>
+
+<p>But upon arrival, nothing is quite as expected.</p>
+
+<p>Equipment out of place. Deteriorating facilities. Incomplete records. Silences that shouldn't exist.</p>
+
+<p>As isolation deepens, the expedition begins to face a series of unsettling events that defy logical explanation.</p>
+
+<p>What started as a scientific mission soon becomes a struggle to understand what happened at Borealis… and whether they are truly alone.</p>
+
+</div>
+
+</body>
+</html>
