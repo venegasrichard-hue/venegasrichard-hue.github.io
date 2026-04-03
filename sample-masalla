@@ -1,4 +1,94 @@
-<h2>Sinopsis</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Más allá de Borealis</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#071018;
+color:white;
+text-align:center;
+}
+
+nav{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #222;
+}
+
+.menu{
+display:flex;
+gap:40px;
+}
+
+.lang{
+position:absolute;
+right:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+.container{
+max-width:750px;
+margin:60px auto;
+padding:0 20px;
+text-align:left;
+line-height:1.6;
+}
+
+.subtitle{
+text-align:center;
+opacity:0.7;
+margin-bottom:40px;
+}
+
+.footer{
+margin-top:80px;
+padding:40px;
+opacity:0.7;
+font-size:14px;
+border-top:1px solid #222;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="menu">
+<a href="index-es.html">Inicio</a>
+<a href="books-es.html">Libros</a>
+<a href="about-es.html">Autor</a>
+</div>
+
+<div class="lang">
+<a href="sample-beyond.html">
+<img src="flag-en.png" width="22">
+</a>
+<a href="sample-masalla.html">
+<img src="flag-es.png" width="22">
+</a>
+</div>
+</nav>
+
+<div class="container">
+
+<h1>MÁS ALLÁ DE BOREALIS</h1>
+<div class="subtitle">INICIATIVA JARDÍN BOREALIS</div>
+
+<h3>Sinopsis</h3>
 
 <p>
 Una expedición al extremo norte.  
@@ -37,7 +127,12 @@ Lo que parecía una simple misión científica pronto se transforma en una lucha
 por comprender qué ocurrió en Borealis… y si aún están solos.
 </p>
 
-<p>
-<b>Más allá de Borealis</b> es un thriller psicológico de supervivencia sobre 
-aislamiento, incertidumbre y los límites de lo desconocido.
-</p>
+</div>
+
+<div class="footer">
+Contacto:<br>
+<b>contact@richardvcorwin.com</b>
+</div>
+
+</body>
+</html>
